@@ -1,0 +1,9 @@
+# In your file
+
+---
+rootproperty: blah
+    section:
+      one: two
+      three: four
+      Foo: Bar
+      empty: ~

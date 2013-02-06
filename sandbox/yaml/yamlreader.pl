@@ -1,4 +1,4 @@
-# yam4.pl - Works also! Yippie!
+# http://www.perlmonks.org/index.pl?node_id=620076
 use strict;
 use warnings;
 
