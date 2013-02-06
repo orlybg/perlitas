@@ -7,6 +7,12 @@ sub asigna {
  print "param1: $p1, param2: $p2 rest of params: @params\n";
 }
 
+sub echo {
+	my $p1 = shift @_;
+	my $p2 = shift @_;
+	print "$p1 $p2 @_ \n"
+}
+
 my @list = (1, 2, 3);
 print "@list\n";
 
@@ -18,5 +24,5 @@ print "$scalar2\n";
 
 
 asigna @ARGV;
-
+echo @ARGV;
 
